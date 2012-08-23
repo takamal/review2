@@ -4,19 +4,20 @@ public class Teacher extends User {
 	public String subject;
 
 	//#6コンストラクタ		
-	public Teacher(){
-		this.subject = null;
+	public Teacher(Integer i,String f, String l,String s){
+		super(i,f,l);
+		this.subject = s;
 	}
 
 	public String getSubject(){
 		return this.subject;
 	}
 
-	//@override
+	@Override
 	public void showName(){
-		// System.out.println(this.firstName + ":" + this.lastName);
-		// super.class.User.showName;
-		super.showName();
+//		super.showName();
+		System.out.print(this.firstName + ":" + this.lastName);
+
 		System.out.println("教科：" + this.subject);
 	}
 }

@@ -1,0 +1,37 @@
+素材置き場
+		Teacher taId1 = new Teacher();
+		Teacher taId2 = new Teacher();
+		Teacher taId3 = new Teacher();
+		Teacher taId4 = new Teacher();
+		Teacher taId5 = new Teacher();
+		Teacher taId6 = new Teacher();
+
+		taId1.subject = "デザイン";
+		taId1.firstName	= "長澤";
+		taId1.lastName	= "大輔";
+
+		taId2.subject = "デザイン";
+		taId2.firstName	= "ラディ";
+		taId2.lastName	= "ジェイソン";
+
+		taId3.subject = "Web/アプリ";
+		taId3.firstName	= "薄井";
+		taId3.lastName	= "隆";
+
+		taId4.subject = "3DCG";
+		taId4.firstName	= "山本";
+		taId4.lastName	= "浩司";
+
+		taId5.subject = "デザイン";
+		taId5.firstName	= "ハナブサ";
+		taId5.lastName	= "ノブユキ";
+
+		taId6.subject = "Web/アプリ";
+		taId6.firstName	= "コヌマ";
+		taId6.lastName	= "ヨシツグ";
+
+		taId7.subject = "Web/アプリ";
+		taId7.firstName	= "渡部";
+		taId7.lastName	= "昇治";
+
+		
